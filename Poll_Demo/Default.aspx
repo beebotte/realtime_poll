@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Beebotte Poll Demo</title>
        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     
@@ -65,6 +65,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+<div class="page-header" >
+   <h1>Beebotte Poll Demo
+       <small>with real-time results update</small>
+      
+   </h1>
+</div>
+
          <div class="container">
         <div class="row">
             <div class="col-md-3">
