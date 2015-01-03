@@ -1,7 +1,7 @@
 Real-time Poll
 ==============
 
-TODO
+Check this [tutorial](http://beebotte.com/tutorials/realtime_poll) for details and this [live demo](http://polldemo.azurewebsites.net/) to see it in action!
 
 ## License
 Copyright 2013 - 2014 Beebotte.
