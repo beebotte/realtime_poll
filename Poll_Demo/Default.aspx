@@ -24,7 +24,7 @@
         });
 
         function GetResults() {
-            bbt.read({ owner: 'beebotte', channel: 'Poll', resource: 'Q2', limit: 10000 }, function (err, msg) {
+            bbt.read({ owner: 'beebotte', channel: 'Poll', resource: 'Q2', limit: 750 }, function (err, msg) {
                 $(jQuery.parseJSON(JSON.stringify(msg))).each(function () {
                     optionsTotal[this.data - 1] += 1;
                 });
